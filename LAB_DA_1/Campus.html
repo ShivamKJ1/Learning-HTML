@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Map</title>
+</head>
+<body>
+    <h1>Campus Map</h1>
+    <p>Click on the highlighted areas of the campus image to explore the buildings.</p>
+
+    <img src="campus.png" alt="Campus Map" usemap="#campusMap" width="1013" height="698">
+    <map name="campusMap">
+        <area shape="rect" coords="105,348,189,375" title="MGR Block"href="MGRBlock.html" alt="MGR Block">
+        <area shape="circle" coords="233,371,8" title="Library" href="Library.html" alt="Library">
+        <area shape="rect" coords="137,315,188,343" href="Auditorium.html" alt="Auditorium">
+    </map>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Building Name</th>
+                <th>Shape</th>
+                <th>Coordinates</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Main Building (MGR Block)</td>
+                <td>Rectangle</td>
+                <td>105,348,189,375</td>
+            </tr>
+            <tr>
+                <td>Library</td>
+                <td>Circle</td>
+                <td>233,371,8</td>
+            </tr>
+            <tr>
+                <td>Auditorium</td>
+                <td>Rectangle</td>
+                <td>137,315,188,343</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
