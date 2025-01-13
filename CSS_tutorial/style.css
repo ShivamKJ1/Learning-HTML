@@ -1,0 +1,21 @@
+body{
+    background: rgba(174, 221, 252,0.3);
+    
+}
+#title{
+       color:rgb(19, 8, 94);
+}
+.subtitle{
+    color: rgb(101, 79, 247);
+}
+#service-image{
+    height: 300px; 
+    width: 600px;
+    /* background: url("https://images.pexels.com/photos/247478/pexels-photo-247478.jpeg?cs=srgb&dl=clouds-cloudy-conifers-247478.jpg&fm=jpg"); */
+    background: linear-gradient(-135deg,red,orange,yellow,white );
+    background-size: cover;
+    /* background-size: contain; */
+
+
+}
+
