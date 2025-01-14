@@ -1,16 +1,21 @@
 body{
     background: rgba(174, 221, 252,0.3);
-    
+    text-transform: none;
+    text-align: justify;
+    /* font-size: 90%; */
+    font-family: "Playwrite VN", serif;
+
 }
 #title{
        color:rgb(19, 8, 94);
+       font-weight: 400;
 }
 .subtitle{
     color: rgb(101, 79, 247);
 }
 #service-image{
     height: 300px; 
-    width: 600px;
+    width: 70%;
     /* background: url("https://images.pexels.com/photos/247478/pexels-photo-247478.jpeg?cs=srgb&dl=clouds-cloudy-conifers-247478.jpg&fm=jpg"); */
     background: linear-gradient(-135deg,red,orange,yellow,white );
     background-size: cover;
@@ -19,3 +24,10 @@ body{
 
 }
 
+.link{
+    text-decoration: underline;
+}
+
+.italics{
+    font-style: italic;
+}
